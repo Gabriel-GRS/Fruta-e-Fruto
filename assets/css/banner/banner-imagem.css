@@ -1,5 +1,19 @@
 .banner-imagem { 
     width: calc(100% - 72px);
-    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
+}
+
+@media screen and (min-width: 0) {
+    .banner-imagem {
+        height: calc(100vh - 51px);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .banner-imagem {
+        
+        height: calc(100vh - 72px);
+    }
 }
